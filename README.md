@@ -1,6 +1,7 @@
 # Database Management System
 ![Database](https://greencloudvps.com/greencloudvps/wp-content/uploads/2022/12/database-management-system-3-750x422.jpg)
-This is a database management system project built using Python and MySQL. The project allows users to manage their databases and perform CRUD operations on tables.
+
+This is a database management system project built using Python and sqlite3. (edit)
 
 #Installation
 Clone the repository: git clone https://github.com/username/repo.git
