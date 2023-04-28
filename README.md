@@ -46,7 +46,7 @@ pause
 3. Replace the role in c.execute with either "admin" or "employee".
 
 ```python
-# Code to create your own login if the database does not feature the default credentials.
+# Code to create your own login.
 import sqlite3
 
 conn = sqlite3.connect("users.db")
