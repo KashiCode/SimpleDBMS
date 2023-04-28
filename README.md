@@ -1,25 +1,34 @@
 # Database Management System
 ![Database](https://greencloudvps.com/greencloudvps/wp-content/uploads/2022/12/database-management-system-3-750x422.jpg)
 
-This is a database management system project built using Python and sqlite3. (edit)
+## Introduction
 
-#Installation
-Clone the repository: git clone https://github.com/username/repo.git
-Install dependencies: pip install -r requirements.txt
-Create a MySQL database and update the credentials in config.py.
-#Usage
-Run the app: python app.py
-Navigate to http://localhost:5000 in your web browser.
-Use the navigation bar to create, read, update, or delete data in your database.
-#Dependencies
-Python 3
-Flask
-MySQL
-#Contributing
+This is a database management system built with [Python](https://www.python.org/), [PyQt5](https://pypi.org/project/PyQt5/), and [sqlite3](https://sqlite.org/index.html) that includes two user access levels: Admin and Employee. Employees can add, remove, and reduce stock items, track transactions, view database contents, and place orders. Admin users can manage user accounts. This program provides a fundamental model for learning stock management, application development, and simple SQL syntax.
+
+## Updates
+> v1.0.0 - releasing the first version of the software. 
+
+## Installation
+- Clone the repository: git clone https://github.com/username/repo.git
+- Install dependencies: pip install -r requirements.txt
+- Run config.py.
+- Run launch.bat
+
+
+## Dependencies
+- Python 3
+> This project requires Python 3.6 or later.
+- PyQt5
+> This project requires PyQt5 5.15.0 or later.
+- sqlite3
+
+
+
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-#License
+## License
 MIT
 
-#Contact
+## Contact
 If you have any questions or comments, please feel free to contact me at email@example.com.
