@@ -26,7 +26,33 @@ This is a database management system built with [Python](https://www.python.org/
 > This project requires sqlite3 3.39.4 or later. 
 
 ## Usage
-- 
+
+- Admin credentials: 
+> Username: Admin
+> Password: 1234
+
+- Employee credentials
+> Username: Employee
+> Password: 1234
+
+- To create your own credentials:
+
+```python
+# Code to create your own login if the database does not feature the default credentials.
+import sqlite3
+
+conn = sqlite3.connect("users.db")
+c = conn.cursor()
+
+# Where username is your username, password is your password and role is either "employee" or "admin". Editing this will add your credential to the database.
+c.execute("INSERT INTO users VALUES ('username', 'password', 'role')")
+conn.commit()
+
+# Close the connection
+conn.close()
+
+
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
