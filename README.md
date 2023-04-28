@@ -32,3 +32,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Contact
 If you have any questions or comments, please feel free to contact me at ostrynskimaks@gmail.com
+
+KashiCode © 2023
