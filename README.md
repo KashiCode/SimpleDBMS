@@ -28,7 +28,7 @@ This is a database management system built with [Python](https://www.python.org/
 
 ## Usage
 
-### First time launch
+### First time launch:
 - When launching the program you must first modify the launch.bat file. 
 1. Replace the Python directory path with the path to the directory. 
 2. Replace the Python script path with the path to the python script.
@@ -39,7 +39,7 @@ This is a database management system built with [Python](https://www.python.org/
 "Python Directory Path" "Python Script Path"
 pause
 ```
-### First time login
+### First time login:
 
 - Admin credentials: 
 > Username: Admin
