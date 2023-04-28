@@ -10,7 +10,7 @@ This is a database management system built with [Python](https://www.python.org/
 
 ## Installation
 - Clone the repository: git clone https://github.com/username/repo.git
-- Ensure Python and sqlite3 are installed on your system. 
+- Ensure [Python](https://www.python.org/downloads/) and [sqlite3](https://www.sqlite.org/download.html) are installed on your system. 
 - Install dependencies: pip install -r requirements.txt
 - Run config.py (if database files are not included).
 - Run launch.bat 
