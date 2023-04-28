@@ -30,8 +30,8 @@ This is a database management system built with [Python](https://www.python.org/
 
 ### First time launch:
 - When launching the program you must first modify the launch.bat file. 
-1. Replace the Python directory path with the path to the directory. 
-2. Replace the Python script path with the path to the python script.
+1. Replace the Python directory path with where your python installation is located. 
+2. Replace the Python script path with where your python script is saved.
 
 ```Batchfile
 #Path to Python directory can be found using directory.py. 
@@ -40,18 +40,10 @@ This is a database management system built with [Python](https://www.python.org/
 pause
 ```
 ### First time login:
-
-- Admin credentials: 
-> Username: Admin
-
-> Password: 1234
-
-- Employee credentials
-> Username: Employee
-
-> Password: 1234
-
-- To create your own credentials edit the c.execute statement in credentials.py:
+- When logging into the program for the first time you must modify the credentials.py file. 
+1. Replace username in c.execute with your username.
+2. Replace password in c.execute with your password.
+3. Replace the role in c.execute with either "admin" or "employee".
 
 ```python
 # Code to create your own login if the database does not feature the default credentials.
