@@ -11,8 +11,8 @@ This is a database management system built with [Python](https://www.python.org/
 ## Installation
 - Clone the repository: git clone https://github.com/username/repo.git
 - Install dependencies: pip install -r requirements.txt
-- Run config.py.
-- Run launch.bat
+- Run config.py (if database files are not included).
+- Run launch.bat 
 
 
 ## Dependencies
@@ -23,8 +23,6 @@ This is a database management system built with [Python](https://www.python.org/
 - sqlite3
 > This project requires sqlite3 3.39.4 or later. 
 
-
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -32,4 +30,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [MIT](https://opensource.org/licenses/MIT)
 
 ## Contact
-If you have any questions or comments, please feel free to contact me at email@example.com.
+If you have any questions or comments, please feel free to contact me at ostrynskimaks@gmail.com
