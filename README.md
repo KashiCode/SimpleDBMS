@@ -29,7 +29,7 @@ This is a database management system built with [Python](https://www.python.org/
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-MIT
+[MIT](https://opensource.org/licenses/MIT)
 
 ## Contact
 If you have any questions or comments, please feel free to contact me at email@example.com.
