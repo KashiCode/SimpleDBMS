@@ -27,15 +27,17 @@ This is a database management system built with [Python](https://www.python.org/
 
 ## Usage
 
-- Admin credentials: 
+- Default admin credentials: 
 > Username: Admin
+
 > Password: 1234
 
-- Employee credentials
+- Default employee credentials
 > Username: Employee
+
 > Password: 1234
 
-- To create your own credentials:
+- To create your own credentials edit the c.execute statement:
 
 ```python
 # Code to create your own login if the database does not feature the default credentials.
@@ -44,7 +46,7 @@ import sqlite3
 conn = sqlite3.connect("users.db")
 c = conn.cursor()
 
-# Where username is your username, password is your password and role is either "employee" or "admin". Editing this will add your credential to the database.
+# Where username is your username, password is your password and role is either "employee" or "admin".
 c.execute("INSERT INTO users VALUES ('username', 'password', 'role')")
 conn.commit()
 
