@@ -28,17 +28,30 @@ This is a database management system built with [Python](https://www.python.org/
 
 ## Usage
 
-- Default admin credentials: 
+### First time launch
+- When launching the program you must first modify the launch.bat file. 
+1. Replace the Python directory path with the path to the directory. 
+2. Replace the Python script path with the path to the python script.
+
+```python
+#Path to Python directory can be found using directory.py. 
+@echo off
+"Python Directory Path" "Python Script Path"
+pause
+```
+### First time login
+
+- Admin credentials: 
 > Username: Admin
 
 > Password: 1234
 
-- Default employee credentials
+- Employee credentials
 > Username: Employee
 
 > Password: 1234
 
-- To create your own credentials edit the c.execute statement:
+- To create your own credentials edit the c.execute statement in credentials.py:
 
 ```python
 # Code to create your own login if the database does not feature the default credentials.
