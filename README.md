@@ -6,7 +6,7 @@
 This is a database management system built with [Python](https://www.python.org/), [PyQt5](https://pypi.org/project/PyQt5/), and [sqlite3](https://sqlite.org/index.html) that includes two user access levels: Admin and Employee. Employees can add, remove, and reduce stock items, track transactions, view database contents, and place orders. Admin users can manage user accounts. This program provides a fundamental model for learning stock management, application development, and simple SQL syntax.
 
 ## Updates
-> v1.0.0 - releasing the first version of the software. 
+> v1.0.0 - First release of software. 
 
 ## Installation
 - Clone the repository: git clone https://github.com/username/repo.git
