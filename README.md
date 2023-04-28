@@ -25,6 +25,9 @@ This is a database management system built with [Python](https://www.python.org/
 - sqlite3
 > This project requires sqlite3 3.39.4 or later. 
 
+## Usage
+- 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
