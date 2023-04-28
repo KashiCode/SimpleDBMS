@@ -21,6 +21,7 @@ This is a database management system built with [Python](https://www.python.org/
 - PyQt5
 > This project requires PyQt5 5.15.0 or later.
 - sqlite3
+> This project requires sqlite3 3.39.4 or later. 
 
 
 
