@@ -10,11 +10,12 @@ This is a database management system built with [Python](https://www.python.org/
 
 ## Installation
 - Clone the repository: git clone https://github.com/KashiCode/SimpleDBMS.git
-- Ensure [Python](https://www.python.org/downloads/) and [sqlite3](https://www.sqlite.org/download.html) are installed on your system. 
-- Run Directory.py (To check your python directory location and ensure it is on path).
+- Ensure [Python](https://www.python.org/downloads/) and [sqlite3](https://www.sqlite.org/download.html) are installed on your system.
+- Run directory.py to ensure the Python installation is on path. 
 - Install dependencies: pip install -r requirements.txt
-- Run config.py (if database files are not included).
-- Run launch.bat 
+- Run config.py
+- Run credentials.py
+- Run launch.bat
 
 
 ## Dependencies
