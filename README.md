@@ -33,7 +33,7 @@ This is a database management system built with [Python](https://www.python.org/
 1. Replace the Python directory path with the path to the directory. 
 2. Replace the Python script path with the path to the python script.
 
-```python
+```Batchfile
 #Path to Python directory can be found using directory.py. 
 @echo off
 "Python Directory Path" "Python Script Path"
