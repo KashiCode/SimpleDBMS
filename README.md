@@ -1,5 +1,4 @@
 # Database Management System
-![Database](https://greencloudvps.com/greencloudvps/wp-content/uploads/2022/12/database-management-system-3-750x422.jpg)
 
 ## Introduction
 
