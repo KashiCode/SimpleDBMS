@@ -1,6 +1,6 @@
 # WIP
 
-# Database Management System
+## Database Management System
 
 ## Introduction
 
